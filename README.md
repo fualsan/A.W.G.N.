@@ -5,6 +5,7 @@ Very basic noise generator that you can use for your signal processing (and many
 # Dependencies 
 C++ STL (not really a dependancy but you know...)
 
+# HOWTO
 You specify mean and variance, 
 
 AWGN noiseObject(mean,variance,numberOfSamples);
