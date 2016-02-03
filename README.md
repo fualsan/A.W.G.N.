@@ -8,21 +8,21 @@ C++ STL (not really a dependancy but you know...)
 # HOWTO
 You specify mean and variance, 
 
-AWGN noiseObject(mean,variance,numberOfSamples);
+``` AWGN noiseObject(mean,variance,numberOfSamples); ```
 
 Or your can just use a SNR (signal to noise ratio) value (signal is assumed to be normalized!), 
 
-AWGN noiseObject(SNR,numberOfSamples); 
+``` AWGN noiseObject(SNR,numberOfSamples);```
 
 Noise samples are dynamically allocated so don't forget to deallocate them to avoid memory leaks.
 
-noiseObject.deallocate(); 
+``` noiseObject.deallocate(); ```
 
 # Just compile for an example 
-g++ main.cpp -o example
+``` g++ main.cpp -o example ```
 
 # Then, just run
-./example
+``` ./example ```
 
 # TODO
 - Thread safe coding (maybe)
