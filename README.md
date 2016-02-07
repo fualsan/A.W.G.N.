@@ -1,11 +1,10 @@
 # A.W.G.N. Additive White Gaussian Noise
-
 Very basic noise generator that you can use for your signal processing (and many other) projects, it very simple and straightfoward to use.  
 
-# Dependencies 
+## Dependencies 
 C++ STL (not really a dependancy but you know...)
 
-# HOWTO
+## HOWTO
 You specify mean and variance, 
 
 ``` AWGN noiseObject(mean,variance,numberOfSamples); ```
@@ -18,16 +17,16 @@ Noise samples are dynamically allocated so don't forget to deallocate them to av
 
 ``` noiseObject.deallocate(); ```
 
-# Just compile for an example 
+## Just compile for an example 
 ``` g++ main.cpp -o example ```
 
-# Then, just run
+## Then, just run
 ``` ./example ```
 
-# TODO
+## TODO
 - Thread safe coding (maybe)
 - Singal processing application examples 
 - Many other things that I don't remember right now :)
 
-# License
+## License
 MIT 
